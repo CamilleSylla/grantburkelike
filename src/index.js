@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import NavBar from './components/nav/nav';
 import * as serviceWorker from './serviceWorker';
+import 'tachyons'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <NavBar/>,
   document.getElementById('root')
 );
 
