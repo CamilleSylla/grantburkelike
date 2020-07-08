@@ -1,17 +1,21 @@
 import React from 'react';
+import './nav.css';
 
 
 const NavBar = () => {
 
     return (
-        <nav class="dt w-100 border-box pa3 ph5-ns">
-  <a class="dtc v-mid mid-gray link dim w-25" href="#" title="Home">
-    <img src="http://tachyons.io/img/logo.jpg" class="dib w2 h2 br-100" alt="Site Name" />
+        <nav className="dt w-100 border-box pa3 ph5-ns">
+  <a className="dtc v-mid mid-gray link dim w-25"  title="Home">
+    <img src="http://tachyons.io/img/logo.jpg" className="dib w2 h2 br-100" alt="Site Name" />
   </a>
-  <div class="dtc v-mid w-75 tr">
-    <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns" href="#" title="About">Services</a>
-    <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns" href="#" title="Store">Blog</a>
-    <a class="link dim dark-gray f6 f5-ns dib" href="#" title="Contact">Join Us</a>
+  <div className="dtc v-mid w-75 tr">
+    <a className="link dim white f6 f5-ns dib mr3 mr4-ns"  title="WhyUs">Why Choose Us ?</a>
+    <a className="link dim white f6 f5-ns dib mr3 mr4-ns"  title="HowHelp">How We Can Help</a>
+    <a className="link dim white f6 f5-ns dib mr3 mr4-ns"  title="OurWork">Our Work</a>
+    <a className="link dim white f6 f5-ns dib mr3 mr4-ns"  title="About">About</a>
+    <a className="link dim white f6 f5-ns dib mr3 mr4-ns"  title="Blog">Blog</a>
+    <a class="f6 link dim br-pill ba bw1 ph3 pv2 mb2 dib dark-green bg-white" href="#0">Get Free Quote</a>
   </div>
 </nav>
     );
